@@ -130,3 +130,39 @@ header {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
+.programme-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.programme-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.programme-item {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.programme-item h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.programme-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.programme-item li {
+    margin-bottom: 10px;
+}
+
+
